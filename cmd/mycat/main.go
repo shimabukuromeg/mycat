@@ -15,5 +15,5 @@ func init() {
 func main() {
 	flag.Parse()
 	args := flag.Args()
-	mycat.Meow(args, n)
+	mycat.Read(args, n)
 }

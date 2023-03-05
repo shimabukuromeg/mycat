@@ -7,7 +7,7 @@ import (
 	"path"
 )
 
-func Meow(fileNames []string, n bool) {
+func Read(fileNames []string, n bool) {
 	line := 0
 	for _, fileName := range fileNames {
 		path := path.Join(".", fileName)
