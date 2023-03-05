@@ -1,5 +1,7 @@
 # mycat
 
+https://docs.google.com/presentation/d/1KiU14z2owLUoiTYz5pKo-gP8RnP2BINmucVYJ6DfxTs/edit#slide=id.g4cc8086b3f_0_454
+
 ```
 $ ./mycat -n hoge.txt fugatxt                                                                                     (git)-[main]
 1: 風が強く吹いていたので、私は風邪をひかないように帽子を深くかぶりました。しかし、風はますます強くなり、帽子が飛ばされてしまいました。その日の午後から、私は喉が痛くなり、寒気がして、風邪を引いてしまいました。
