@@ -7,17 +7,17 @@ import (
 	"os"
 )
 
-func Read(fileNames []string, n bool) {
+func Read(w io.Writer, fileNames []string, n bool) {
 	line := 0
 	for _, fileName := range fileNames {
 		f, err := os.Open(fileName)
 		if err != nil {
-			fmt.Println(err)
+			fmt.Fprintln(w, err)
 			return
 		}
 		defer f.Close()
 
-		ReadFromReader(os.Stdout, f, n, &line)
+		ReadFromReader(w, f, n, &line)
 	}
 }
 

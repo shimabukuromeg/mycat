@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"os"
 
 	"github.com/shimabukuromeg/mycat"
 )
@@ -15,5 +16,5 @@ func init() {
 func main() {
 	flag.Parse()
 	args := flag.Args()
-	mycat.Read(args, n)
+	mycat.Read(os.Stdout, args, n)
 }
